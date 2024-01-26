@@ -13,7 +13,7 @@ public class Ex1 {
 
         byte[] array = new byte[10];
         random.nextBytes(array);
-        for(var i : array){
+        for(byte i : array){
             System.out.println(i);
         }
 

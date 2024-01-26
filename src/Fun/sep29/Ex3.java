@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Ex3 {
     public static void main(String[] args) {
-        var i = new int[]{12, 313, 13};
+        int[] i = new int[]{12, 313, 13};
 
         int [] i1 = {12,3113,13};
 

@@ -42,12 +42,12 @@ public class Ex1 {
         int [][] multiArray = {{1,2,3,4}, {1,2,3,4}, {5,6,7,8}};
         System.out.println(Arrays.deepToString(multiArray));
 
-        // при простом копировании двумерного массива копируются ссылки !
+        // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ !
 
         System.out.println(Arrays.equals(array, array2));
-        System.out.println(Arrays.equals(array,0, 5, array2, 0 , 5));
+//        System.out.println(Arrays.equals(array,0, 5, array2, 0 , 5));
 
-        // для многомерных массивов deepEquals
+        // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ deepEquals
 
     }
 
@@ -71,8 +71,8 @@ public class Ex1 {
 
 
     public static int search(int [] array, int x){
-        var j = 0;
-        for(var i : array){
+        int j = 0;
+        for(int i : array){
             if(i == x){
                 return j;
             }

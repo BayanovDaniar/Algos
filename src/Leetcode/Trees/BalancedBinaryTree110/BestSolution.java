@@ -11,8 +11,8 @@ public class BestSolution {
     public Pair<Boolean, Integer> supportive(TreeNode root){
         if(root == null) return new Pair<>(true, 0);
 
-        var left = supportive(root.left);
-        var right = supportive(root.right);
+        Pair<Boolean, Integer> left = supportive(root.left);
+        Pair<Boolean, Integer> right = supportive(root.right);
 
         boolean result = left.getKey() && right.getKey() & Math.abs(left.getValue() - right.getValue()) <= 1;
         int depth = 1 + Math.max(left.getValue() , right.getValue());

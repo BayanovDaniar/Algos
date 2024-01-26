@@ -12,7 +12,7 @@ public class Ex2 {
         System.out.printf("What`s %S?\n", "shit");
         System.out.format("What`s %S?\n", "shit");
 
-        System.out.printf("Check %b\n check №2 %b\n", "ok", null);
+        System.out.printf("Check %b\n check пїЅ2 %b\n", "ok", null);
         System.out.printf("'World' hash-code: %h\n", "World");
         System.out.printf("Integer number : %d\n", 239294);
 
@@ -22,16 +22,16 @@ public class Ex2 {
         System.out.printf("Real number : %+d\n", 231); // if positive print '+'
         System.out.printf("Real number : %,f\n", 13232443.43); // separator
         System.out.printf("Real number : %,23f\n", 13232443.43); //width
-        String str = String.format("%1$+09.5f", 3.1415926535897); // 1$ - номер аргумента
+        String str = String.format("%1$+09.5f", 3.1415926535897); // 1$ - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         System.out.println(str);
 
         //Decimal format
         System.out.println("\n\n*********************\n DECIMAL FORMAT \n\n");
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        var value = 23.3534;
+        double value = 23.3534;
         System.out.println(decimalFormat.format(value));
 
-        // 0 - цифра отображается всегда, даже если в номере меньше цифр (в таком случае отображается 0);
+        // 0 - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ (пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 0);
         decimalFormat.applyPattern("00000.##");
         value = 233.3;
         System.out.println(decimalFormat.format(value));
@@ -43,7 +43,7 @@ public class Ex2 {
         System.out.println("\n\n*********************\n\n");
 
 
-        // Обработка дат
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ
 
         System.out.printf("Today is %tB\n", new Date());
         System.out.printf("Today is %tb\n", new Date());
